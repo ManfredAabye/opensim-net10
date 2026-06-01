@@ -1,2 +1,3 @@
-#!/bin/sh
+#!/bin/bash
+
 dotnet bootstrap/prebuild.dll /target vs2022 /targetframework net10_0 /excludedir = "obj | bin" /file prebuild.xml
